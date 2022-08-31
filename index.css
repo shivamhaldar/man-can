@@ -1,0 +1,129 @@
+
+
+*{
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    background-color: rgba(255, 255, 0, 0.566);
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background:  rgb(20, 40, 59);
+    border-radius: 10px;
+
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background:  rgb(0, 28, 80);  
+}
+
+.header{
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.header h1{
+    margin: 0 15%;
+    border-radius: 10px;
+    padding: 5%;
+    background-color: black;
+    font-size: 83px;
+    color: white;
+}
+
+.header .order{
+    color: black;
+    margin-top: 5%;
+}
+
+.about{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: black;
+}
+
+.about p{
+    margin: 9%;
+}
+
+.expert{
+    padding-top: 20%;
+    color: black;
+}
+
+.expert p{
+    margin: 9%;
+}
+
+.terms{
+    
+    padding-top: 15%;
+    padding-bottom: 10%;
+    color: black;
+}
+
+.terms p{
+    margin: 9%;
+}
+
+.warning{
+    
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: black;
+}
+
+.warning p{
+    margin: 9%;
+}
+
+.contact{
+    
+    padding-top: 30%;
+    color: black;
+}
+
+.contact p{
+    margin: 9%;
+}
+
+.bottom{
+    
+    padding-top: 30%;
+    color: black;
+    padding-bottom: 2%;
+}
+
+.block{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 100%;
+}
+
+.block .shivam{
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    width: 33.33%;
+}
+
+.block .shivam .three{
+    padding-left: 34%;
+
+}
+
+.block .shivam .three p{
+    padding-top: 4%;
+}
